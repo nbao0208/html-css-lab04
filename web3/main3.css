@@ -1,0 +1,94 @@
+#demo-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.dra {
+  width: 300px;
+  height: 150px;
+}
+#img1 {
+  background-image: url(https://www.lolvvv.com/_next/image?url=https://ddragon.leagueoflegends.com/cdn/img/champion/splash/AurelionSol_0.jpg&w=1200&q=75);
+  background-size: cover;
+  width: 300px;
+  height: 150px;
+}
+#img1:hover {
+  width: 300px;
+  height: 150px;
+  background-image: url(https://dotesports.com/wp-content/uploads/2022/06/07194305/TFT-Aurelion-Sol.jpg?w=1200);
+  background-size: cover;
+}
+#img5 {
+  width: 300px;
+  height: 150px;
+  background-image: url(https://i.redd.it/8q671j32x6fz.jpg);
+  background-size: cover;
+}
+#img5:hover {
+  width: 500px;
+  height: 250px;
+  background-image: url(https://i.redd.it/8q671j32x6fz.jpg);
+  background-size: cover;
+}
+#img4 {
+  background-image: url(https://www.mobafire.com/images/champion/skins/landscape/aurelion-sol-storm-dragon-762x.jpg);
+  width: 300px;
+  height: 150px;
+  background-size: cover;
+}
+#img4:hover {
+  width: 300px;
+  height: 150px;
+  background-image: url(https://www.mobafire.com/images/champion/skins/landscape/aurelion-sol-storm-dragon-762x.jpg);
+  background-size: cover;
+  border-radius: 50%;
+}
+#img2 {
+  position: relative;
+  width: 300px;
+  height: 150px;
+}
+#background-img2 {
+  width: 300px;
+  height: 150px;
+  background-image: url(https://turbosmurfs.gg/storage/splash/AurelionSol_2.jpg);
+  background-size: cover;
+}
+#caption {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  opacity: 0;
+  color: rgb(213, 15, 15);
+}
+#img2:hover #caption {
+  opacity: 1;
+}
+#img2:hover #background-img2 {
+  opacity: 0.7;
+}
+.dra:hover {
+  animation: shake 1s infinite;
+}
+@keyframes shake {
+  0% {
+    transform: translate(0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translate(-3px, -3px);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translate(3px, 3px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}

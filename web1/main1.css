@@ -1,0 +1,14 @@
+#shadow-box {
+  margin: auto;
+  background-color: yellow;
+  box-shadow: 7px 7px grey;
+  width: 500px;
+  padding: 7px;
+}
+#rounded-corners {
+  background-color: rgb(52, 80, 217);
+  width: 500px;
+  margin: auto;
+  border-radius: 16px;
+  padding: 6px;
+}
